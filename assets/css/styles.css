@@ -426,6 +426,10 @@ img{
   cursor: pointer;
 
 }
+.total .item:hover{
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
 .item i{
   color: rgba(255, 0, 0, 0.63);
   font-size: 2rem;
