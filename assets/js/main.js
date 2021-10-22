@@ -1,3 +1,11 @@
+
+
+window.onload =function(){
+    
+
+
+
+
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -59,6 +67,9 @@ sr.reveal('.contact__input',{interval: 200});
 
 
 /*TOGGLE LIGHT MODE*/
+
+
+}
 function toggleMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -66,3 +77,4 @@ function toggleMode() {
 
     	
 }
+
