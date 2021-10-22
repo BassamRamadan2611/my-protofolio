@@ -341,8 +341,12 @@ img{
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
+
   overflow: hidden;
   position: relative;
+}
+.work__img img{
+  height: 600px;
 }
 .work__img .overlay{
   position: absolute;
@@ -401,6 +405,7 @@ img{
 .work__img img{
   transition: 1s;
   cursor: pointer;
+  height: 400px;
 }
 .work__img:hover .overlay{
   display:block ;
